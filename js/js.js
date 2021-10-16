@@ -15,8 +15,7 @@ button.onclick = function(){
     if (imgValue === 'images/crown_PNG23845.png') {
         img.removeAttribute('src');
         img.setAttribute('src', 'images/coronavirus_PNG47.png');
-    } 
-    if (imgValue === 'images/coronavirus_PNG47.png') {
+    } else if (imgValue === 'images/coronavirus_PNG47.png') {
         img.removeAttribute('src');
         img.setAttribute('src',  'images/crown_PNG23845.png');
     }
