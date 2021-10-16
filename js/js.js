@@ -1,6 +1,7 @@
 let container = document.querySelector('.container');
 let button = document.querySelector('.button');
 let img = document.querySelector('img');
+const sound = new Audio('../sound/wow.mp3');
 let i = 0;
  
 
@@ -20,5 +21,6 @@ button.onclick = function(){
         img.setAttribute('src',  'images/crown_PNG23845.png');
     }
     container.classList.toggle('container-active');
+    sound.play();
     i += 1;
 }
