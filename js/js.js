@@ -1,7 +1,7 @@
 let container = document.querySelector('.container');
 let button = document.querySelector('.button');
 let img = document.querySelector('img');
-const sound = new Audio('../sound/wow.mp3');
+const sound = new Audio('js/wow.mp3');
 let i = 0;
  
 
